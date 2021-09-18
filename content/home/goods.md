@@ -2,19 +2,18 @@
 # An instance of the Pages widget.
 # Documentation: https://wowchemy.com/docs/page-builder/
 widget: portfolio
-active: false
 # This file represents a page section.
 headless: true
 
 # Order that this section appears on the page.
-weight: 70
+weight: 80
 
-title: 'Recent & Upcoming Talks'
+title: 'Public Goods'
 subtitle:
 
 content:
   # Page type to display. E.g. post, event, publication...
-  page_type: event
+  page_type: goods
   # Choose how many pages you would like to display (0 = all pages)
   count: 5
   # Filter on criteria

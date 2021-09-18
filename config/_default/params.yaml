@@ -6,8 +6,8 @@
 # Appearance
 
 theme: minimal
-day_night: true
-font: ''
+day_night: false
+font: 'Rose'
 font_size: L
 
 # SEO
@@ -20,49 +20,42 @@ twitter: ''
 
 # Contact (edit or remove options as required)
 
-email: test@example.org
-phone: 888 888 88 88
+email: benjaminvatterj@u.northwestern.edu
+phone: 224 817 2226
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
+  street: 2211 Campus Dr.
+  city: Evanston
+  region: IL
+  postcode: '60208'
   country: United States
   country_code: US
-coordinates:
-  latitude: '37.4275'
-  longitude: '-122.1697'
-directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-office_hours:
-  - 'Monday 10:00 to 13:00'
-  - 'Wednesday 09:00 to 10:00'
-appointment_url: 'https://calendly.com'
+  # coordinates:
+  # latitude: '37.4275'
+  # longitude: '-122.1697'
+  # directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+  # office_hours:
+  # - 'Monday 10:00 to 13:00'
+  # - 'Wednesday 09:00 to 10:00'
+  # appointment_url: 'https://calendly.com'
 contact_links:
-  - icon: twitter
-    icon_pack: fab
-    name: DM Me
-    link: 'https://twitter.com/Twitter'
-  - icon: skype
-    icon_pack: fab
-    name: Skype Me
-    link: 'skype:echo123?call'
-  - icon: keybase
-    icon_pack: fab
-    name: Chat on Keybase
-    link: 'https://keybase.io/'
-  - icon: comments
+  - icon: envelope
     icon_pack: fas
-    name: Discuss on Forum
-    link: 'https://discourse.gohugo.io'
+    link: mailto:benjaminvatterj@u.northwestern.edu
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.co.uk/citations?user=hT2dK90AAAAJ
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/benjaminvatterj
 
 # Site header
 
 main_menu:
   enable: true
-  align: l
+  align: r
   show_logo: true
   show_language: false
-  show_day_night: true
+  show_day_night: false
   show_search: true
   highlight_active_link: true
 
@@ -77,7 +70,9 @@ address_format: en-us
 highlight: true
 highlight_languages:
   - r
-math: false
+  - python
+  - latex
+math: true
 diagram: false
 privacy_pack: false
 edit_page:
@@ -141,7 +136,7 @@ search:
     index_name: ''
     show_logo: false
 map:
-  provider: ''
+  provider: mapnik
   api_key: ''
   zoom: 15
 marketing:

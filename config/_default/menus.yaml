@@ -4,27 +4,24 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Home
+  - name: About
     url: '#about'
     weight: 10
-  - name: Posts
-    url: '#posts'
+  - name: Vita
+    url: 'uploads/cv_ben_vatter.pdf'
     weight: 20
-  - name: Projects
+  - name: Working Papers
     url: '#projects'
     weight: 30
-  - name: Talks
-    url: '#talks'
+  - name: Work in Progress
+    url: '#work_in_progress'
     weight: 40
-  - name: Publications
-    url: '#featured'
+  - name: Public Goods
+    url: '#goods'
     weight: 50
-  - name: Contact
-    url: '#contact'
-    weight: 60
-
-# Link to a PDF of your resume/CV from the menu.
-# To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
-#  - name: CV
-#    url: uploads/resume.pdf
-#    weight: 70
+    #  - name: Courses
+    #  url: courses/
+    # weight: 60
+    # - name: Contact
+    # url: '#contact'
+    # weight: 70
