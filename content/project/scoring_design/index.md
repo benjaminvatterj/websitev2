@@ -20,6 +20,8 @@ url_code: ""
 # url_slides: "https://www.dropbox.com/s/39x3crbir04ri8h/slides.pdf?dl=0"
 url_video: ""
 
+custom_style: jmp
+
 # Slides (optional).
 #   Associate this project with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
