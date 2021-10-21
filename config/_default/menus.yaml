@@ -8,7 +8,7 @@ main:
     url: '#about'
     weight: 10
   - name: Vita
-    url: 'uploads/cv_ben_vatter_oct.pdf'
+    url: 'uploads/cv_ben_vatter.pdf'
     weight: 20
   - name: Working Papers
     url: '#projects'
