@@ -4,7 +4,7 @@ title: "CMS Hospital Compare: Do Methods Matter?"
 
 summary: "With [David Dranove](https://www.kellogg.northwestern.edu/faculty/directory/dranove_david.aspx) and [Ting Wang](https://www.nber.org/people/ting_wang?page=1&perPage=50) \n\n An analysis of the cause and consquences of a flawed scoring design"
 
-
+draft: true
 Type: work_in_progress
 
 # Is this a featured talk? (true/false)

@@ -6,12 +6,12 @@ title: Benjamin Vatter
 superuser: true
 
 # Role/position/tagline
-role: Economics Ph.D. Candidate
+role: Postdoctoral Research Fellow
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Northwestern University
-  url: https://www.northwestern.edu/
+- name: Stanford Institute for Economic Policy Research (SIEPR)
+  url: https://siepr.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
 bio: Industrial organization, health care policy and regulation, econometrics
@@ -28,7 +28,7 @@ education:
   courses:
   - course: Ph.D. Economics
     institution: Northwestern University
-    year: (anticipated) 2022
+    year: 2022
   - course: M.A Economics
     institution: Northwestern University
     year: 2018
@@ -46,7 +46,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: mailto:benjaminvatterj@u.northwestern.edu
+  link: mailto:bvatter@stanford.edu
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.co.uk/citations?user=hT2dK90AAAAJ
@@ -69,7 +69,7 @@ highlight_name: true
 # {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/cv_ben_vatter.pdf" "newtab" >}}resumé{{< /staticref >}}.
 ---
 
-I am a Ph.D. candidate at the economics department of Northwestern University.
-My research focuses on competition and policy design, with particular emphasis on health care markets.
-**I will be on the Job Market during the 2021-2022 academic year**.
+I am currently a postdoctoral researcher at the Stanford Institute for Economic Policy Research (SIEPR). My research focuses on competition and policy design, with particular emphasis on health care markets.
+
+In July 2023, I will join the MIT Sloan School of Management as an assistant professor in the Applied Economics group.
 
