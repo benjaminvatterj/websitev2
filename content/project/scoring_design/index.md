@@ -1,6 +1,6 @@
 ---
 title: "Quality Disclosure and Regulation: Scoring Design in Medicare Advantage"
-summary: " What makes a good quality score and how do we go about designing one?"
+summary: "(Revision requested at Econometrica) \n\n What makes a good quality score and how do we go about designing one?"
 
 tags:
 - Scoring design
