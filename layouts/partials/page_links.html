@@ -17,6 +17,7 @@
 {{ $pdf := "" }}
 {{ $pdf_appendix := "" }}
 {{ $pdf_supplementary := ""}}
+{{ $url_ssrn := ""}}
 {{ $resource := $page.Resources.GetMatch (printf "%s.pdf" $page.File.ContentBaseName) }}
 {{ with $resource }}
 {{ else }}
@@ -28,6 +29,9 @@
   {{ end }}
   {{ if $page.Params.url_supplement }}
     {{ $pdf_supplementary = $page.Params.url_supplement | relURL}}
+  {{ end }}
+  {{ if $page.Params.url_ssrn }}
+    {{ $url_ssrn = $page.Params.url_ssrn | relURL}}
   {{ end }}
 {{ end }}
 
@@ -46,6 +50,12 @@
 {{ with $pdf_supplementary }}
 <a class="btn btn-outline-primary my-1 mr-1{{ if $is_list }} btn-sm{{end}}" href="{{ . }}" target="_blank" rel="noopener">
   Supplementary Material
+</a>
+{{ end }}
+
+{{ with $url_ssrn }}
+<a class="btn btn-outline-primary my-1 mr-1{{ if $is_list }} btn-sm{{end}}" href="{{ . }}" target="_blank" rel="noopener">
+  SSRN
 </a>
 {{ end }}
 
