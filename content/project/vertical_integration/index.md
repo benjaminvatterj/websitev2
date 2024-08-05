@@ -1,5 +1,5 @@
 ---
-title: Vertical Integration and Plan Design in Healthcare Markets
+title: "Vertical Integration and Plan Design in Healthcare Markets"
 summary: "With [Jose Ignacio Cuesta](https://sites.google.com/site/ignaciocuesta/) and [Carlos Noton](http://www.dii.uchile.cl/~cnoton/)\n\n An analysis of the welfare effects of vertical integration between insurers and hospitals"
 
 tags:
