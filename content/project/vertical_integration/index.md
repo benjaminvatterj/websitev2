@@ -1,5 +1,5 @@
 ---
-title: Vertical Integration between Hospitals and Insurers
+title: Vertical Integration and Plan Design in Healthcare Markets
 summary: "With [Jose Ignacio Cuesta](https://sites.google.com/site/ignaciocuesta/) and [Carlos Noton](http://www.dii.uchile.cl/~cnoton/)\n\n An analysis of the welfare effects of vertical integration between insurers and hospitals"
 
 tags:
@@ -16,8 +16,9 @@ image:
   focal_point: Center
 
 url_code: ""
-url_pdf: "https://www.dropbox.com/s/csk96o3tz535y4j/VI.pdf?dl=0"
-url_slides: "https://www.dropbox.com/s/39x3crbir04ri8h/slides.pdf?dl=0"
+url_pdf: "uploads/cnv_vi_health_main.pdf"
+url_appendix: "uploads/cnv_vi_health_appendix.pdf"
+# url_slides: "https://www.dropbox.com/s/39x3crbir04ri8h/slides.pdf?dl=0"
 url_video: ""
 url_ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3309218"
 
@@ -31,4 +32,4 @@ url_ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3309218"
 
 With [Jose Ignacio Cuesta](https://sites.google.com/site/ignaciocuesta/) and [Carlos Noton](http://www.dii.uchile.cl/~cnoton/)
 
-The welfare effects of vertical integration are ambiguous; Cost efficiencies and the elimination of double marginalization may offset increases in market power and incentives to foreclose rivals. In the context of vertical integration between insurers and hospitals, we find that integration leads to higher hospital prices, misallocation of demand across hospitals, and inefficient insurance generosity. Vertical integration decreases total welfare and increases inpatient medical spending by 11%. We find that equilibrium plan networks play an outsize role in the effects of integration. Integrated firms skew access towards their hospitals, limiting provider competition and forcing rival insurers to compete on uneven terms. Failure to account for equilibrium network effects leads to the wrong sign on the welfare impact of integration and vastly underestimates the strength of the incentives produced by integration.
+We measure the impacts of vertical integration between insurers and hospitals. In the Chilean market, where half of private hospital capacity is vertically integrated, integration increases inpatient care spending by 6 percent and decreases consumer surplus and total welfare. Integrated insurers offer generous coverage at integrated hospitals, limited access to rival hospitals, and lower premiums. Competition for enrollees forces non-integrated insurers to provide additional coverage to high-quality non-integrated hospitals, resulting in plan networks that limit hospital competition. Whereas vertical integration reduces double marginalization, skewed cost-sharing structures-and their effect on hospital competition-more than compensate, leading to an overall negative welfare impact. 
