@@ -14,30 +14,30 @@ organizations:
   url: https://mitsloan.mit.edu/faculty/directory/benjamin-vatter
 
 # Short bio (displayed in user profile at end of posts)
-bio: Industrial organization, health care policy and regulation, econometrics
+bio: Industrial organization, healthcare policy and regulation
 
 # Interests to show in About widget
-interests:
-- Industrial Organization
-- Health Economics
-- Econometrics
+# interests:
+#- Industrial Organization
+#- Health Economics
+#- Econometrics
 
 
 # Education to show in About widget
-education:
-  courses:
-  - course: Ph.D. Economics
-    institution: Northwestern University
-    year: 2022
-  - course: M.A Economics
-    institution: Northwestern University
-    year: 2018
-  - course: M.A Economics
-    institution: University of Chile
-    year: 2016
-  - course: B.Sc.Eng Industrial Engineering
-    institution: University of Chile
-    year: 2014
+# education:
+#   courses:
+#   - course: Ph.D. Economics
+#     institution: Northwestern University
+#     year: 2022
+#   - course: M.A Economics
+#     institution: Northwestern University
+#     year: 2018
+#   - course: M.A Economics
+#     institution: University of Chile
+#     year: 2016
+#   - course: B.Sc.Eng Industrial Engineering
+#     institution: University of Chile
+#     year: 2014
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -64,9 +64,13 @@ social:
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
 
+
+
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 # {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/cv_ben_vatter.pdf" "newtab" >}}resumé{{< /staticref >}}.
 ---
 
-I am an Assistant Professor at the MIT Sloan School of Management in the Applied Economics group. My research focuses on competition and policy design, with particular emphasis on health care markets.
+I am the Class of 1943 Career Development Assistant Professor at the [MIT Sloan School of Management](https://mitsloan.mit.edu/faculty/directory/benjamin-vatter) in the Applied Economics group. My research focuses on competition and policy design, with emphasis on healthcare markets. 
+
+I got my Ph.D. in Economics from Northwestern University in 2022. 

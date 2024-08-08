@@ -1,6 +1,6 @@
 ---
 title: "Quality Disclosure and Regulation: Scoring Design in Medicare Advantage"
-summary: "(Revision requested at Econometrica) \n\n What makes a good quality score and how do we go about designing one?"
+summary: "(Revision requested at Econometrica) \n\n Asymmetric information and market power distort quality provision. Simple scores coordinate consumers on higher quality, marshaling their demand to offset producer market power."
 
 tags:
 - Scoring design

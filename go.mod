@@ -1,4 +1,4 @@
-module github.com/wowchemy/starter-hugo-academic
+module github.com/benjaminvatterj/theme-academic-cv
 
 go 1.15
 

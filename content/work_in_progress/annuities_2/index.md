@@ -18,4 +18,3 @@ url_video: ""
 With [Gaston Illanes](https://sites.northwestern.edu/gil208/) and [Manisha Padi](https://www.law.berkeley.edu/our-faculty/faculty-profiles/manisha-padi/)
 
 
-**More details coming soon**
