@@ -1,6 +1,6 @@
 {{ $item := .item }}
 {{ $js_tag_classes := delimit (apply (apply $item.Params.tags "replace" "." " " "-") "printf" "js-id-%s" ".") " " }}
 
-<div class="col-12 isotope-item {{ $js_tag_classes | safeHTMLAttr }}">
+<div class="col-12 isotope-item {{ $js_tag_classes | safeHTMLAttr }}"  style="padding-bottom: .5em;">
   {{ partial "li_compact" $item }}
 </div>

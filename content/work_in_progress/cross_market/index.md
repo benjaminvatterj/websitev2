@@ -1,6 +1,6 @@
 ---
 title: "Mergers With Intermediation: The Price Effect of Distant Hospital Mergers"
-summary: "With [David Dranove](https://www.kellogg.northwestern.edu/faculty/directory/dranove_david.aspx) \n\n Employers buy insurance on behalf of employees, aggregating several hospital service markets in a single procurement process. Hospital systems controlling key employer geographies can leverage it in rate negotiations with insurers. Can this explain mounting evidence of cross-service-market merger price effects?"
+summary: "With [David Dranove](https://www.kellogg.northwestern.edu/faculty/directory/dranove_david.aspx) \n\n"
 
 tags:
 - Competition
@@ -29,4 +29,4 @@ url_video: ""
 ---
 With [David Dranove](https://www.kellogg.northwestern.edu/faculty/directory/dranove_david.aspx)
 
-
+The last two decades have seen over a thousand hospital mergers in the US, nearly half of which were of hospitals serving distinct geographic markets. These distant mergers, however, have faced scant antitrust scrutiny due to limitations in how existing models and evidence link local market concentration to anti-competitive behavior and harm. Using data from a large national insurer, we provide evidence that some of these mergers result in significant price increases. We contribute novel evidence supporting a long-standing hypothesis that these mergers concentrate the market for employer-sponsored insurance. We provide a theory to support our findings, showing that the mechanism behind it is linked to group purchasing and procurement behavior, which has implications for cross-market mergers in markets beyond hospitals. We present tools to conduct prospective merger evaluations in the presence of intermediated demand.

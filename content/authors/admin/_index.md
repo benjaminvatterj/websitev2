@@ -71,6 +71,8 @@ highlight_name: true
 # {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/cv_ben_vatter.pdf" "newtab" >}}resumé{{< /staticref >}}.
 ---
 
-I am the Class of 1943 Career Development Assistant Professor at the [MIT Sloan School of Management](https://mitsloan.mit.edu/faculty/directory/benjamin-vatter) in the Applied Economics group. My research focuses on competition and policy design, with emphasis on healthcare markets. 
+I am an Assistant Professor of Economics and the Class of 1943 Career Development Assistant Professor at the [MIT Sloan School of Management](https://mitsloan.mit.edu/faculty/directory/benjamin-vatter) in the Applied Economics group. I received my Ph.D. in Economics from Northwestern University in 2022.
 
-I got my Ph.D. in Economics from Northwestern University in 2022. 
+My research centers on questions in industrial organization and public economics, with emphasis on competition and policy design in healthcare markets. 
+
+
