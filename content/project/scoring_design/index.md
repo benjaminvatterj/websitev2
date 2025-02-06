@@ -1,6 +1,6 @@
 ---
 title: "Quality Disclosure and Regulation: Scoring Design in Medicare Advantage"
-summary: "(Conditionally Accepted at Econometrica) \n\n Asymmetric information and market power distort quality provision. Simple scores coordinate consumers on higher quality, marshaling their demand to offset producer market power."
+summary: "(Accepted at Econometrica) \n\n Asymmetric information and market power distort quality provision. Simple scores coordinate consumers on higher quality, marshaling their demand to offset producer market power."
 
 tags:
 - Scoring design
