@@ -12,3 +12,11 @@
 #projects{
     padding-top: 30px;
 }
+
+/* Make the thumbnail inside .media.stream-item scale with its container */
+.media.stream-item {
+  img {
+    max-width: 100%;
+    height: auto;   // keeps the aspect-ratio
+  }
+}

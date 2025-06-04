@@ -30,12 +30,37 @@
   {{ $summary = $item.Summary }}
 {{ end }}
 
+{{/* Get the Journal */}}
+{{ $journal := ""}}
+{{ if $item.Params.publication}}
+  {{ $journal = $item.Params.publication | markdownify | emojify }}
+{{ end }}
+
+{{/* Get the publication year */}}
+{{ $year := "N/A" }}
+{{ if $item.Params.year }}
+  {{ $year = $item.Params.year | markdownify | emojify }}
+{{ end }}
+
+
 <div class="media stream-item">
   <div class="media-body">
 
     <h3 class="article-title mb-0 mt-0">
       <a href="{{$link}}" {{ $target | safeHTMLAttr }}>{{ $item.Title }}</a>
     </h3>
+
+    {{ if eq $item.Type "publication" }}
+        <div class="article-journal">
+          <span class="text-muted">
+            {{ $journal }}
+            {{ if $year }}
+              <span class="middot-divider"></span>
+              <span>{{ $year }}</span>
+            {{ end }}
+          </span>
+        </div>
+    {{ end }}
 
     {{ with $summary }}
     <div class="article-style">
@@ -78,9 +103,9 @@
   <div class="ml-3">
     {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
     {{ with $resource }}
-    {{ $image := .Resize "150x" }}
+    {{ $image := .Resize "250x" }}
     <a href="{{$link}}" {{ $target | safeHTMLAttr }}>
-      <img src="{{ $image.RelPermalink }}" alt="{{ $item.Title }}">
+      <img src="{{ $image.RelPermalink }}" alt="{{ $item.Title }}" style="max-width : 100%">
     </a>
     {{end}}
   </div>
