@@ -1,6 +1,7 @@
 # IDEs
 .idea/
 .DS_Store
+AGENTS.md
 
 # Hugo
 /resources/
