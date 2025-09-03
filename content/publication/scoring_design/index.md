@@ -32,9 +32,10 @@ tags:
 - Health
 featured: false
 
-# links:
-# - name: ""
-#   url: ""
+# links to show custom buttons on the card/page
+links:
+- name: Teaching Deck
+  url: "/uploads/ma_stars_public_deck.zip"
 url_pdf: "uploads/jmp_ben_vatter.pdf"
 url_appendix: "uploads/jmp_appendix_ben_vatter.pdf"
 url_supplement: "uploads/supplementary_material.pdf"
