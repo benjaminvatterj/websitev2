@@ -103,9 +103,15 @@
   <div class="ml-3">
     {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
     {{ with $resource }}
-    {{ $image := .Resize "250x" }}
+    {{ $image := . }}
+    {{ if eq $item.Type "publication" }}
+      {{/* Preserve detail for high-density screens without upscaling small originals. */}}
+      {{ $image = .Fit "750x750" }}
+    {{ else }}
+      {{ $image = .Resize "250x" }}
+    {{ end }}
     <a href="{{$link}}" {{ $target | safeHTMLAttr }}>
-      <img src="{{ $image.RelPermalink }}" alt="{{ $item.Title }}" style="max-width : 100%">
+      <img src="{{ $image.RelPermalink }}" {{ if eq $item.Type "publication" }}width="250" {{ end }}alt="{{ $item.Title }}" style="max-width : 100%">
     </a>
     {{end}}
   </div>

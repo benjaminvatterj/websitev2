@@ -51,9 +51,9 @@
     <div class="col-12 col-md-4 order-first {{$order}}">
       {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
       {{ with $resource }}
-      {{ $image := .Resize "300x" }}
+      {{ $image := .Resize "900x q95" }}
       {{if $do_link}}<a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{end}}
-        <img src="{{ $image.RelPermalink }}" alt="{{ $item.Title }}" loading="lazy">
+        <img src="{{ $image.RelPermalink }}" width="300" alt="{{ $item.Title }}" loading="lazy">
       {{if $do_link}}</a>{{end}}
       {{end}}
     </div>

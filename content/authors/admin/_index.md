@@ -75,4 +75,6 @@ I am the Class of 1943 Career Development Assistant Professor at the [MIT Sloan 
 
 My research centers on questions in industrial organization and public economics, with emphasis on competition and policy design in healthcare markets.
 
+**I will be visiting the Department of Economics at Harvard University during the 2026–2027 academic year.**
+
 
