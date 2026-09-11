@@ -18,6 +18,7 @@ image:
 
 url_code: ""
 url_pdf: "uploads/cross_market_mergers.pdf"
+url_appendix: "uploads/cross_market_mergers_appendix.pdf"
 # url_pdf: "https://www.dropbox.com/s/csk96o3tz535y4j/VI.pdf?dl=0"
 # url_slides: "https://www.dropbox.com/s/39x3crbir04ri8h/slides.pdf?dl=0"
 url_video: ""

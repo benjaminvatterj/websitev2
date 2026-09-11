@@ -21,6 +21,7 @@ url_appendix: "uploads/cnv_vi_health_appendix.pdf"
 # url_slides: "https://www.dropbox.com/s/39x3crbir04ri8h/slides.pdf?dl=0"
 url_video: ""
 url_ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3309218"
+url_nber: "https://www.nber.org/papers/w32833"
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
