@@ -22,6 +22,7 @@ url_appendix: "uploads/cross_market_mergers_appendix.pdf"
 # url_pdf: "https://www.dropbox.com/s/csk96o3tz535y4j/VI.pdf?dl=0"
 # url_slides: "https://www.dropbox.com/s/39x3crbir04ri8h/slides.pdf?dl=0"
 url_video: ""
+url_ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7448066"
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
