@@ -6,12 +6,13 @@ tags:
 - Vertical Integration
 - Health
 - Competition
-date: "2016-04-27T00:00:00Z"
+# Latest paper revision: PDF modification date (title page: May 2025).
+date: "2025-05-16T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 share: false
 external_link: ""
-weight: 20
+weight: 40
 image:
   focal_point: Center
 

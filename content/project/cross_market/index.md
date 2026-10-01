@@ -6,15 +6,18 @@ summary: "With [David Dranove](https://www.kellogg.northwestern.edu/faculty/dire
 tags:
 - Competition
 - Health
-date: "2016-04-27T00:00:00Z"
+# Latest paper revision: title page and PDF modification date.
+date: "2026-09-11T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
 share: false
 
-weight: 40
+weight: 20
 image:
   focal_point: Center
+  detail: plot.svg
+  alt_text: "Event-study estimates of hospital negotiated prices before and after a cross-geography acquisition, with confidence intervals."
 
 url_code: ""
 url_pdf: "uploads/cross_market_mergers.pdf"

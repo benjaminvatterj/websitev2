@@ -1,0 +1,39 @@
+{{ $page := .page }}
+{{ $source := .image }}
+{{ $placement := $page.Params.image.placement | default 1 }}
+{{ $container := "article-container" }}
+{{ $display_width := 720 }}
+{{ if eq $placement 2 }}
+  {{ $container = "container" }}
+  {{ $display_width = 1200 }}
+{{ else if eq $placement 3 }}
+  {{ $container = "container-fluid" }}
+  {{ $display_width = 2560 }}
+{{ end }}
+
+{{ $is_svg := eq $source.MediaType.Type "image/svg+xml" }}
+{{ $image := $source }}
+{{ $srcset := "" }}
+{{/* SVG stays vector. Raster images get a sharper, up-to-2x source without upscaling. */}}
+{{ if not $is_svg }}
+  {{ $display_width = int (math.Min $display_width $source.Width) }}
+  {{ if gt $source.Width $display_width }}
+    {{ $image = $source.Resize (printf "%dx q95" $display_width) }}
+    {{ $large := $source }}
+    {{ $large_width := mul $display_width 2 }}
+    {{ if gt $source.Width $large_width }}
+      {{ $large = $source.Resize (printf "%dx q95" $large_width) }}
+    {{ end }}
+    {{ $srcset = printf "%s %dw, %s %dw" $image.RelPermalink $image.Width $large.RelPermalink $large.Width }}
+  {{ end }}
+{{ end }}
+
+<div class="article-header {{ $container }} featured-image-wrapper mt-4 mb-4" style="max-width: {{ $display_width }}px;">
+  <div style="position: relative">
+    <img src="{{ $image.RelPermalink }}"
+      {{ with $srcset }}srcset="{{ . }}" sizes="(max-width: {{ $display_width }}px) 100vw, {{ $display_width }}px"{{ end }}
+      {{ if not $is_svg }}width="{{ $image.Width }}" height="{{ $image.Height }}"{{ end }}
+      alt="{{ $page.Params.image.alt_text | default $page.Title }}" class="featured-image" style="height: auto;">
+    {{ with $page.Params.image.caption }}<span class="article-header-caption">{{ . | markdownify | emojify }}</span>{{ end }}
+  </div>
+</div>
