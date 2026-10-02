@@ -25,6 +25,7 @@ url_slides: ""
 url_video: ""
 url_pdf: "uploads/charity_care.pdf"
 url_appendix: "uploads/charity_care_appendix.pdf"
+url_ssrn: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7549958"
 
 ---
 With [Xuelin Li](https://xuelinli.com/), and [Tong Liu](https://sites.google.com/view/tongl)
